@@ -1,0 +1,71 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "DynamicQL.Middleware/1.0.0": {
+        "dependencies": {
+          "DynamicQL.Core": "1.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.2.0",
+          "Newtonsoft.Json": "10.0.0.0"
+        },
+        "runtime": {
+          "DynamicQL.Middleware.dll": {}
+        }
+      },
+      "DynamicQL.Core/1.0.0": {
+        "dependencies": {
+          "DynamicQL.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "DynamicQL.Core.dll": {}
+        }
+      },
+      "DynamicQL.Interfaces/1.0.0": {
+        "runtime": {
+          "DynamicQL.Interfaces.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/2.0.2.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        }
+      },
+      "Newtonsoft.Json/10.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DynamicQL.Middleware/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DynamicQL.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DynamicQL.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.0.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/10.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
