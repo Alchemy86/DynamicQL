@@ -10,3 +10,12 @@ C:\git\DynamicQL\DynamicQL.Core\obj\Debug\netcoreapp2.0\DynamicQL.Core.AssemblyI
 C:\git\DynamicQL\DynamicQL.Core\obj\Debug\netcoreapp2.0\DynamicQL.Core.csproj.CopyComplete
 C:\git\DynamicQL\DynamicQL.Core\obj\Debug\netcoreapp2.0\DynamicQL.Core.dll
 C:\git\DynamicQL\DynamicQL.Core\obj\Debug\netcoreapp2.0\DynamicQL.Core.pdb
+C:\Git\DynamicQL\src\DynamicQL.Core\bin\Debug\netcoreapp2.0\DynamicQL.Core.deps.json
+C:\Git\DynamicQL\src\DynamicQL.Core\bin\Debug\netcoreapp2.0\DynamicQL.Core.dll
+C:\Git\DynamicQL\src\DynamicQL.Core\bin\Debug\netcoreapp2.0\DynamicQL.Core.pdb
+C:\Git\DynamicQL\src\DynamicQL.Core\obj\Debug\netcoreapp2.0\DynamicQL.Core.csprojResolveAssemblyReference.cache
+C:\Git\DynamicQL\src\DynamicQL.Core\obj\Debug\netcoreapp2.0\DynamicQL.Core.csproj.CoreCompileInputs.cache
+C:\Git\DynamicQL\src\DynamicQL.Core\obj\Debug\netcoreapp2.0\DynamicQL.Core.AssemblyInfoInputs.cache
+C:\Git\DynamicQL\src\DynamicQL.Core\obj\Debug\netcoreapp2.0\DynamicQL.Core.AssemblyInfo.cs
+C:\Git\DynamicQL\src\DynamicQL.Core\obj\Debug\netcoreapp2.0\DynamicQL.Core.dll
+C:\Git\DynamicQL\src\DynamicQL.Core\obj\Debug\netcoreapp2.0\DynamicQL.Core.pdb

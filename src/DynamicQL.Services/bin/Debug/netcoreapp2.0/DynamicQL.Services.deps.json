@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "DynamicQL.Services/1.0.0": {
+        "dependencies": {
+          "DynamicQL.Core": "1.0.0",
+          "DynamicQL.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "DynamicQL.Services.dll": {}
+        }
+      },
+      "DynamicQL.Core/1.0.0": {
+        "runtime": {
+          "DynamicQL.Core.dll": {}
+        }
+      },
+      "DynamicQL.Interfaces/1.0.0": {
+        "dependencies": {
+          "DynamicQL.Core": "1.0.0"
+        },
+        "runtime": {
+          "DynamicQL.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DynamicQL.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DynamicQL.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DynamicQL.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

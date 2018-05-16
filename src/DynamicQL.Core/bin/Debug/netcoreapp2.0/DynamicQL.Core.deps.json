@@ -7,27 +7,14 @@
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "DynamicQL.Core/1.0.0": {
-        "dependencies": {
-          "DynamicQL.Interfaces": "1.0.0"
-        },
         "runtime": {
           "DynamicQL.Core.dll": {}
-        }
-      },
-      "DynamicQL.Interfaces/1.0.0": {
-        "runtime": {
-          "DynamicQL.Interfaces.dll": {}
         }
       }
     }
   },
   "libraries": {
     "DynamicQL.Core/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "DynamicQL.Interfaces/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

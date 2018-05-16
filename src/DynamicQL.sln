@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27428.2015
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicQL", "DynamicQL\DynamicQL.csproj", "{BEA10F7C-BAA3-4325-A608-6416954B62DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicQL", "DynamicQL\DynamicQL.csproj", "{BEA10F7C-BAA3-4325-A608-6416954B62DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicQL.Core", "DynamicQL.Core\DynamicQL.Core.csproj", "{A9CBCDA8-D153-4C7D-8798-09D9DE9D8E18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicQL.Core", "DynamicQL.Core\DynamicQL.Core.csproj", "{A9CBCDA8-D153-4C7D-8798-09D9DE9D8E18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicQL.Middleware", "DynamicQL.Middleware\DynamicQL.Middleware.csproj", "{1817D64E-4B36-4497-8A94-FC0D09A61635}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicQL.Middleware", "DynamicQL.Middleware\DynamicQL.Middleware.csproj", "{1817D64E-4B36-4497-8A94-FC0D09A61635}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicQL.Interfaces", "DynamicQL.Interfaces\DynamicQL.Interfaces.csproj", "{288F487A-D5A6-4A91-9BC6-00E20DBE4B31}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicQL.SQL", "DynamicQL.SQL\DynamicQL.SQL.csproj", "{B3C9229E-BCE3-43F6-8B23-0B8E1C426E9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{1817D64E-4B36-4497-8A94-FC0D09A61635}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1817D64E-4B36-4497-8A94-FC0D09A61635}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1817D64E-4B36-4497-8A94-FC0D09A61635}.Release|Any CPU.Build.0 = Release|Any CPU
-		{288F487A-D5A6-4A91-9BC6-00E20DBE4B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{288F487A-D5A6-4A91-9BC6-00E20DBE4B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{288F487A-D5A6-4A91-9BC6-00E20DBE4B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{288F487A-D5A6-4A91-9BC6-00E20DBE4B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C9229E-BCE3-43F6-8B23-0B8E1C426E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C9229E-BCE3-43F6-8B23-0B8E1C426E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C9229E-BCE3-43F6-8B23-0B8E1C426E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C9229E-BCE3-43F6-8B23-0B8E1C426E9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

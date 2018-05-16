@@ -196,16 +196,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "DynamicQL.Interfaces/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "compile": {
-          "bin/placeholder/DynamicQL.Interfaces.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DynamicQL.Interfaces.dll": {}
-        }
       }
     }
   },
@@ -666,39 +656,36 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "DynamicQL.Interfaces/1.0.0": {
-      "type": "project",
-      "path": "../DynamicQL.Interfaces/DynamicQL.Interfaces.csproj",
-      "msbuildProject": "../DynamicQL.Interfaces/DynamicQL.Interfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "DynamicQL.Interfaces >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\agibson\\.nuget\\packages\\": {},
+    "C:\\Users\\Aaron\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "C:\\git\\DynamicQL\\DynamicQL.Core\\DynamicQL.Core.csproj",
+      "projectUniqueName": "C:\\Git\\DynamicQL\\src\\DynamicQL.Core\\DynamicQL.Core.csproj",
       "projectName": "DynamicQL.Core",
-      "projectPath": "C:\\git\\DynamicQL\\DynamicQL.Core\\DynamicQL.Core.csproj",
-      "packagesPath": "C:\\Users\\agibson\\.nuget\\packages\\",
-      "outputPath": "C:\\git\\DynamicQL\\DynamicQL.Core\\obj\\",
+      "projectPath": "C:\\Git\\DynamicQL\\src\\DynamicQL.Core\\DynamicQL.Core.csproj",
+      "packagesPath": "C:\\Users\\Aaron\\.nuget\\packages\\",
+      "outputPath": "C:\\Git\\DynamicQL\\src\\DynamicQL.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\agibson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
@@ -711,11 +698,7 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {
-            "C:\\git\\DynamicQL\\DynamicQL.Interfaces\\DynamicQL.Interfaces.csproj": {
-              "projectPath": "C:\\git\\DynamicQL\\DynamicQL.Interfaces\\DynamicQL.Interfaces.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

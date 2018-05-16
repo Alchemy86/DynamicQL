@@ -16,3 +16,14 @@ C:\git\DynamicQL\DynamicQL.Middleware\obj\Debug\netcoreapp2.0\DynamicQL.Middlewa
 C:\git\DynamicQL\DynamicQL.Middleware\obj\Debug\netcoreapp2.0\DynamicQL.Middleware.csproj.CopyComplete
 C:\git\DynamicQL\DynamicQL.Middleware\obj\Debug\netcoreapp2.0\DynamicQL.Middleware.dll
 C:\git\DynamicQL\DynamicQL.Middleware\obj\Debug\netcoreapp2.0\DynamicQL.Middleware.pdb
+C:\Git\DynamicQL\src\DynamicQL.Middleware\obj\Debug\netcoreapp2.0\DynamicQL.Middleware.csprojResolveAssemblyReference.cache
+C:\Git\DynamicQL\src\DynamicQL.Middleware\obj\Debug\netcoreapp2.0\DynamicQL.Middleware.csproj.CoreCompileInputs.cache
+C:\Git\DynamicQL\src\DynamicQL.Middleware\obj\Debug\netcoreapp2.0\DynamicQL.Middleware.AssemblyInfoInputs.cache
+C:\Git\DynamicQL\src\DynamicQL.Middleware\obj\Debug\netcoreapp2.0\DynamicQL.Middleware.AssemblyInfo.cs
+C:\Git\DynamicQL\src\DynamicQL.Middleware\bin\Debug\netcoreapp2.0\DynamicQL.Middleware.deps.json
+C:\Git\DynamicQL\src\DynamicQL.Middleware\bin\Debug\netcoreapp2.0\DynamicQL.Middleware.dll
+C:\Git\DynamicQL\src\DynamicQL.Middleware\bin\Debug\netcoreapp2.0\DynamicQL.Core.dll
+C:\Git\DynamicQL\src\DynamicQL.Middleware\bin\Debug\netcoreapp2.0\DynamicQL.Core.pdb
+C:\Git\DynamicQL\src\DynamicQL.Middleware\bin\Debug\netcoreapp2.0\DynamicQL.Middleware.pdb
+C:\Git\DynamicQL\src\DynamicQL.Middleware\obj\Debug\netcoreapp2.0\DynamicQL.Middleware.dll
+C:\Git\DynamicQL\src\DynamicQL.Middleware\obj\Debug\netcoreapp2.0\DynamicQL.Middleware.pdb
