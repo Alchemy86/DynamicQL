@@ -37,7 +37,7 @@ namespace DynamicQL.Core
 
                 if (next == '}')
                 {
-                    reader.Read(); // consume closing '}'
+                    reader.Read();
                     return queryObject;
                 }
 
@@ -45,7 +45,7 @@ namespace DynamicQL.Core
                 next = ConsumeWhitespaceAndPeek(reader);
 
                 if (str.Length > 0 && next == '{')
-                {
+                { 
                     queryObject.Properties.Add(Read(str, reader));
                 }
                 else if (str.Length > 0)
@@ -61,7 +61,7 @@ namespace DynamicQL.Core
             var stringBuilder = new StringBuilder();
 
             var next = reader.Peek();
-            while (next != -1 && !Char.IsWhiteSpace((char)next) && next != '}' && next != '{')
+            while (next != -1 && !Char.IsWhiteSpace((char)next) && next != '}' && next != '{' && next != ',')
             {
                 stringBuilder.Append((char)next);
                 reader.Read();
@@ -75,7 +75,7 @@ namespace DynamicQL.Core
         private static int ConsumeWhitespaceAndPeek(TextReader reader)
         {
             var next = reader.Peek();
-            while (next != -1 && Char.IsWhiteSpace((char)next))
+            while (next != -1 && (Char.IsWhiteSpace((char)next) || Equals(',', (char)next)))
             {
                 reader.Read();
                 next = reader.Peek();

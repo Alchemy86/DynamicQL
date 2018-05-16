@@ -31,3 +31,4 @@ C:\Git\DynamicQL\src\DynamicQL\obj\Debug\netcoreapp2.0\DynamicQL.AssemblyInfoInp
 C:\Git\DynamicQL\src\DynamicQL\obj\Debug\netcoreapp2.0\DynamicQL.AssemblyInfo.cs
 C:\Git\DynamicQL\src\DynamicQL\obj\Debug\netcoreapp2.0\DynamicQL.dll
 C:\Git\DynamicQL\src\DynamicQL\obj\Debug\netcoreapp2.0\DynamicQL.pdb
+C:\git\DynamicQL\src\DynamicQL\obj\Debug\netcoreapp2.0\DynamicQL.csproj.CopyComplete

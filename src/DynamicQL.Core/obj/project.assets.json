@@ -664,28 +664,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aaron\\.nuget\\packages\\": {},
+    "C:\\Users\\agibson\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Git\\DynamicQL\\src\\DynamicQL.Core\\DynamicQL.Core.csproj",
+      "projectUniqueName": "C:\\git\\DynamicQL\\src\\DynamicQL.Core\\DynamicQL.Core.csproj",
       "projectName": "DynamicQL.Core",
-      "projectPath": "C:\\Git\\DynamicQL\\src\\DynamicQL.Core\\DynamicQL.Core.csproj",
-      "packagesPath": "C:\\Users\\Aaron\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\DynamicQL\\src\\DynamicQL.Core\\obj\\",
+      "projectPath": "C:\\git\\DynamicQL\\src\\DynamicQL.Core\\DynamicQL.Core.csproj",
+      "packagesPath": "C:\\Users\\agibson\\.nuget\\packages\\",
+      "outputPath": "C:\\git\\DynamicQL\\src\\DynamicQL.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\agibson\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
@@ -694,6 +691,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://172.27.74.52:4444/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

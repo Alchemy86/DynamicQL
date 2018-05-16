@@ -27,3 +27,4 @@ C:\Git\DynamicQL\src\DynamicQL.Middleware\bin\Debug\netcoreapp2.0\DynamicQL.Core
 C:\Git\DynamicQL\src\DynamicQL.Middleware\bin\Debug\netcoreapp2.0\DynamicQL.Middleware.pdb
 C:\Git\DynamicQL\src\DynamicQL.Middleware\obj\Debug\netcoreapp2.0\DynamicQL.Middleware.dll
 C:\Git\DynamicQL\src\DynamicQL.Middleware\obj\Debug\netcoreapp2.0\DynamicQL.Middleware.pdb
+C:\git\DynamicQL\src\DynamicQL.Middleware\obj\Debug\netcoreapp2.0\DynamicQL.Middleware.csproj.CopyComplete
