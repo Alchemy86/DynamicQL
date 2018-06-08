@@ -17,58 +17,60 @@ A json (or GraphQL) based query format will be submit as so
 
 And it will respond with the identified structure or the code and currenlty a dummy SQL code
 
-`{`
-	`"Result": {`
-		`"SqlQuery": "SELECT  FROM <ROOT>",`
-		`"Properties": [`
-			`{`
-				`"SqlQuery": "SELECT table(like:, 'moose') FROM intranetpagelaouyx",`
-				`"Properties": [`
-					`{`
-						`"ElementType": 1,`
-						`"Name": "table(like:"`
-					`},`
-					`{`
-						`"ElementType": 1,`
-						`"Name": "'moose')"`
-					`}`
-				`],`
-				`"ElementType": 0,`
-				`"Name": "intranetpagelaouyx"`
-			`},`
-			`{`
-				`"SqlQuery": "SELECT name, surtnmae, etxar FROM employee",`
-				`"Properties": [`
-					`{`
-						`"ElementType": 1,`
-						`"Name": "name"`
-					`},`
-					`{`
-						`"ElementType": 1,`
-						`"Name": "surtnmae"`
-					`},`
-					`{`
-						`"ElementType": 1,`
-						`"Name": "etxar"`
-					`}`
-				`],`
-				`"ElementType": 0,`
-				`"Name": "employee"`
-			`}`
-		`],`
-		`"ElementType": 0,`
-		`"Name": "<ROOT>"`
-	`},`
-	`"Id": 115,`
-	`"Exception": null,`
-	`"Status": 5,`
-	`"IsCanceled": false,`
-	`"IsCompleted": true,`
-	`"IsCompletedSuccessfully": true,`
-	`"CreationOptions": 0,`
-	`"AsyncState": null,`
-	`"IsFaulted": false`
-`}`
+```json
+{
+	"Result": {
+		"SqlQuery": "SELECT  FROM <ROOT>",
+		"Properties": [
+			{
+				"SqlQuery": "SELECT table(like:, 'moose') FROM intranetpagelaouyx",
+				"Properties": [
+					{
+						"ElementType": 1,
+						"Name": "table(like:"
+					},
+					{
+						"ElementType": 1,
+						"Name": "'moose')"
+					}
+				],
+				"ElementType": 0,
+				"Name": "intranetpagelaouyx"
+			},
+			{
+				"SqlQuery": "SELECT name, surtnmae, etxar FROM employee",
+				"Properties": [
+					{
+						"ElementType": 1,
+						"Name": "name"
+					},
+					{
+						"ElementType": 1,
+						"Name": "surtnmae"
+					},
+					{
+						"ElementType": 1,
+						"Name": "etxar"
+					}
+				],
+				"ElementType": 0,
+				"Name": "employee"
+			}
+		],
+		"ElementType": 0,
+		"Name": "<ROOT>"
+	},
+	"Id": 115,
+	"Exception": null,
+	"Status": 5,
+	"IsCanceled": false,
+	"IsCompleted": true,
+	"IsCompletedSuccessfully": true,
+	"CreationOptions": 0,
+	"AsyncState": null,
+	"IsFaulted": false
+}
+```
 
 The gradual idea being to add more processing as I go. Using the submission format of GraphQL as a guide, I want a free, scheme free GraphQL like code that will simply attempt to return what I ask for with no setup!
 
