@@ -7,6 +7,8 @@ namespace DynamicQL.Core
 {
     public class DQObject : DQElement
     {
+        public string SqlQuery { get; set; }
+
         public List<DQElement> Properties { get; } = new List<DQElement>();
 
         public DQObject(string name) : base(DQElementType.Object, name) { }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
 using DynamicQL.Core;
 using Microsoft.AspNetCore.Http;
@@ -26,7 +27,8 @@ namespace DynamicQL.Middleware
                     var query = await sr.ReadToEndAsync();
                     if (!String.IsNullOrWhiteSpace(query))
                     {
-                        var result = JsonConvert.SerializeObject(DQObject.Read(query));
+                        var objk = GenerateSQLAsync(DQObject.Read(query));
+                        var result = JsonConvert.SerializeObject(objk);
                         await WriteResult(httpContext, result);
                         sent = true;
                     }
@@ -43,6 +45,26 @@ namespace DynamicQL.Middleware
             httpContext.Response.StatusCode = 200;
             httpContext.Response.ContentType = "text/json";
             await httpContext.Response.WriteAsync(result);
+        }
+
+        /// <summary>
+        /// Dummy example - delete!
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
+        private Task GenerateSQLAsync(DQObject obj)
+        {
+            if (obj.ElementType == DQElementType.Object)
+            {
+                obj.SqlQuery += $"SELECT {string.Join(", ", obj.Properties.Where(x => x.ElementType == DQElementType.Value).Select(y => y.Name))} FROM {obj.Name}";
+                var ongoing = obj.Properties.Where(x => x.ElementType == DQElementType.Object);
+                foreach (DQObject item in ongoing)
+                {
+                    GenerateSQLAsync(item);
+                }
+            }
+
+            return Task.FromResult(obj);
         }
     }
 }
